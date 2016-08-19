@@ -1,3 +1,40 @@
-body {
-  background: cornsilk;
+body, button {
+  background: white;
+  color: #333;
+  font-size: 1.3em;
+  font-family: "Courier new";
+}
+
+#app {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  width: 80%;
+}
+
+li {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h1 {
+    border-bottom: 4px solid red;
+    letter-spacing: 20pt;
+    color: black;
+}
+
+input, button {
+    border: 1px solid #777;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 4px;
+    width: 400px;
+}
+
+button {
+    background-color: #9acd32;
+    width:400px;
+    border: 4px green;
+    padding: 4px;
+    cursor:pointer;
 }
