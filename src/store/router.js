@@ -1,4 +1,3 @@
-import { createHistory } from 'history';
 import { Router } from 'director';
 import { autorun } from 'mobx';
 
